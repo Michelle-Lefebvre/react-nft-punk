@@ -23,7 +23,7 @@
     font-weight: 600;
 }
 
-.collectioinCard > img {
+.collectionCard > img {
     width: 100%;
 }
 
@@ -37,6 +37,7 @@
     align-items: center;
     margin-top: 10px;
     object-fit: contain;
+    padding: 20px;
 }
 .price {
     margin-left: 5px;
