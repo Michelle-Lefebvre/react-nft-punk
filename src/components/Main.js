@@ -31,7 +31,7 @@ const Main = ({ selectedPunk, punkListData }) => {
                 <div className='owner'>
                     <div className='ownerImageContainer'>
                         <img className='selectedPunk' 
-                            src={activePunk.owner.profile_img_url} 
+                            src={activePunk.owner.profile_img_url}
                             alt='activePunk.owner' 
                         />
                     </div>

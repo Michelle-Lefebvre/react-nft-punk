@@ -37,13 +37,13 @@
 }
 
 .title {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 800;
 }
 
 .itemNumber {
     color: #a1a5bd;
-    font-size: 72px;
+    font-size: 3rem;
     align-self: center;
 }
 
