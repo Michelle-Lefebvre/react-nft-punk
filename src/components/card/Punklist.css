@@ -5,7 +5,8 @@
     margin-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid white;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth;
+    scroll-margin: none; */
 }
 .punkList::-webkit-scrollbar {
     display: none;
