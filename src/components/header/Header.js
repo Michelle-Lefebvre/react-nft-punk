@@ -19,19 +19,21 @@ const Header = () => {
           placeholder='Collection, item or user...'
         />
       </div>
-      <div className='headerItems'>
-        <p>Drops</p>
-        <p>Marketplace</p>
-        <p>Create</p>
-      </div>
-      <div className='headerActions'>
-        <div className='themeSwitchContainer'>
-          <img src={themeSwitchIcon} alt='light/dark mode icon' />
-        </div>
+      <div className='themeSwitchContainer'>
+        <img src={themeSwitchIcon} alt='light/dark mode icon' />
       </div>
 
-      <div className='loginBtn'>GET IN</div>
-      <br />
+      <button className='toggle-collapse'>
+        <i class='fa fa-bars' aria-hidden='true'></i>
+      </button>
+      <div className='navbar-collapse'>
+        <div className='headerItems'>
+          <p>Drops</p>
+          <p>Marketplace</p>
+          <p>Create</p>
+          <div className='loginBtn'>GET IN</div>
+        </div>
+      </div>
     </div>
   );
 };
